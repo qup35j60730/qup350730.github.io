@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles03.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kablammo&family=Russo+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div style="width:100vw;height:75px;background-color: #000;" class="st">
+        <a class="btn" href="index.html"> <img src="p/logo.png" alt="Button Image"></a>
+        <a class="bt1" href="index01.html">關於我</a>
+        <a class="bt2" href="index02.html">平面類</a>
+        <a class="bt3" href="index03.html">影片類</a>
+    </div>
+
+    <header>
+        <div class="subtitle">影片類</div>
+        <div>
+
+
+            <div class="o"> </div>
+
+            <div class="video-container">
+                <video controls>
+                    <source src="p/m/00.mp4" type="video/mp4">
+                    您的浏览器不支持HTML5视频标签。
+                </video>
+                <p>2D動畫-側翻</p>
+                <video controls>
+                    <source src="p/m/張品筑_12法則.mp4" type="video/mp4">
+                    您的浏览器不支持HTML5视频标签。
+                </video>
+                <p>2D動畫-香菇彈跳</p>
+                <video controls>
+                    <source src="p/m/Rotate_updated.mp4" type="video/mp4">
+                    您的浏览器不支持HTML5视频标签。
+                </video>
+                <p>3D動畫-TRUDGE</p>
+                <video controls>
+                    <source src="p/m/max0.mp4" type="video/mp4">
+                    您的浏览器不支持HTML5视频标签。
+                </video>
+                <p>3D-future funeral</p>
+                <video controls>
+                    <source src="p/m/林進口閉嘴 O.mp4" type="video/mp4">
+                    您的浏览器不支持HTML5视频标签。
+                </video>
+                <p>motion graphic-時境解離.雲湖之願</p>
+                <video controls>
+                    <source src="p/m/組合 [H264 Q=70 S=5].mp4" type="video/mp4">
+                    您的浏览器不支持HTML5视频标签。
+                </video>
+                <p>motion graphic-star</p>
+                <video controls>
+                    <source src="p/m/張品筑 陳宜均 傅政莉_03_True colors.mp4" type="video/mp4">
+                    您的浏览器不支持HTML5视频标签。
+                </video>
+                <p>storyboard-True colors</p>
+
+            </div>
+
+        </div>
+        <div class="o"> </div>
+
+
+        <a class="behan" href="https://www.behance.net/qup35j6073cc42"> <img src="p/下載.png" alt="Button Image"></a>
+        <a class="ig" href="https://www.instagram.com/zhudraw/"> <img src="p/unnamed.png" alt="Button Image"></a>
+        <a class="zhu" href="index.html"> <img src="p/logo1.png" alt="Button Image"></a>
+
+        </div>
+    </header>
+    <div id="back-to-top">↑</div>
+
+
+    <script>
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("back-to-top").style.display = "block";
+            } else {
+                document.getElementById("back-to-top").style.display = "none";
+            }
+        }
+
+        document.getElementById("back-to-top").addEventListener("click", function () {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        });
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

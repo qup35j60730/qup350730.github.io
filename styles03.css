@@ -1,0 +1,201 @@
+/* 置中 */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* 底 */
+header {
+    background-color: rgb(26, 26, 26);
+    margin: 0 auto;
+}
+
+
+/* 滑桿 */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* 主視 */
+.btn {
+    position: absolute;
+}
+
+.btn img {
+    width: 35px;
+    height: 60px;
+    top: 10px;
+    left: 20px;
+}
+
+
+/* 關於我 */
+.bt1 {
+    position: absolute;
+    top: 25px;
+    left: 150px;
+    color: rgb(207, 207, 207);
+    /* Set the initial text color to white */
+    text-decoration: none;
+    /* Remove the default underline */
+}
+
+.bt1:hover {
+    color: white;
+    text-decoration: underline;
+    /* Add underline on hover */
+}
+
+/* 平面 */
+.bt2 {
+    position: absolute;
+    top: 25px;
+    left: 250px;
+    color: rgb(207, 207, 207);
+    /* Set the initial text color to white */
+    text-decoration: none;
+    /* Remove the default underline */
+}
+
+.bt2:hover {
+    color: white;
+    text-decoration: underline;
+    /* Add underline on hover */
+}
+
+/* 影片 */
+.bt3 {
+    position: absolute;
+    top: 25px;
+    left: 350px;
+    color: rgb(207, 207, 207);
+    /* Set the initial text color to white */
+    text-decoration: none;
+    /* Remove the default underline */
+}
+
+.bt3:hover {
+    color: white;
+    text-decoration: underline;
+    /* Add underline on hover */
+}
+
+
+
+
+/* 最上面那塊 */
+.st {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    /* Increase the z-index value */
+}
+
+
+
+/* 字幕動畫 */
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, -50%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+}
+
+/* 介紹 */
+.subtitle {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* animation: fade-in 3s ease-in; */
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+
+/* 回到頂部 */
+#back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fdfdfd;
+    color: #1a1a1a;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.behan {
+    position: absolute;
+    top: 610%;
+    left: 46.5%;
+}
+
+.behan img {
+    width: 30px;
+    height: 30px;
+
+}
+
+.ig {
+    position: absolute;
+    top: 610%;
+    left: 49.5%;
+}
+
+.ig img {
+    width: 30px;
+    height: 30px;
+
+}
+
+.zhu {
+    position: absolute;
+    top: 609%;
+    left: 52.5%;
+}
+
+.zhu img {
+    width: 30px;
+    height: 48px;
+}
+
+/* 影片 */
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-container video {
+
+    width: 900px;
+    height: 500px;
+    margin-bottom: 15px;
+
+}
+
+.o {
+    width: 30px;
+    height: 300px;
+}
+
+p {
+    color: rgb(187, 187, 187);
+}
